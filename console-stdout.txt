@@ -1,0 +1,529 @@
+Analytics platform: macOS
+UUID_id: {DFE7BCEC-0CEB-E262-FA37-20AECB85B599}
+UUID_serialNumber: {7BDB2071-9291-A14A-208B-471735C4753E}
+Created ISO expiry timestamp: request=2025-03-09T08:59:23Z created=2025-03-09T08:59:23.1436379Z (skew=0 sec) expires=2025-03-23T08:59:23.1436379Z
+onRedirect: ms-xal-000000004c20a908://auth/?code=M.C556_BL2.2.U.d00ee5ea-ff7c-dc27-80e1-b7b7b0371707&state=2stKu3K61wqr4U0L-0-C08TuYOHfej_XeTypTZlRu9UENkFGbCLFIl8l3UMakI8cYWMJ2t8Ts0iEOnWBIedYHw
+renewing user token
+renewing sisu token
+Created ISO expiry timestamp: request=2025-03-09T09:00:03Z created=2025-03-09T09:00:03.4314265Z (skew=0 sec) expires=2025-03-23T09:00:03.4314265Z
+Created ISO expiry timestamp: request=2025-03-09T09:00:03Z created=2025-03-09T09:00:03.4644856Z (skew=0 sec) expires=2025-03-13T09:00:03.4644856Z
+Created ISO expiry timestamp: request=2025-03-09T09:00:03Z created=2025-03-09T09:00:03.8443433Z (skew=0 sec) expires=2025-03-10T01:00:03.8443433Z
+renewing web token
+Created ISO expiry timestamp: request=2025-03-09T09:00:04Z created=2025-03-09T09:00:04.9972376Z (skew=0 sec) expires=2025-03-10T01:00:04.9972376Z
+renewing xsts token
+Created ISO expiry timestamp: request=2025-03-09T09:00:05Z created=2025-03-09T09:00:05.8490704Z (skew=0 sec) expires=2025-03-10T01:00:05.8490704Z
+got new user account string
+Oauth flow completed, new user account created
+XBL user profile: gamerTag=CostParasite42, displayPicURL=https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcS9jr0n8i7LY1tL3U7AiafY8TLh4WC8Jg5en4oR5rIL2PVZWryDqYUMivZigP4wST&format=png, gamerScore=7713
+XBL console: id=FD00E29BBCEC656E, type=XboxOneSDigital, name=XBOXONE, power=ConnectedStandby
+Setting analytics user ID: 2535448321739819
+login completed!
+userIsLoggedIn changed to true
+Setting analytics user ID: 2535448321739819
+getCloudProductsJSON, fullQuery = false
+XBL console: id=FD00E29BBCEC656E, type=XboxOneSDigital, name=XBOXONE, power=ConnectedStandby
+XBL user profile: gamerTag=CostParasite42, displayPicURL=https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcS9jr0n8i7LY1tL3U7AiafY8TLh4WC8Jg5en4oR5rIL2PVZWryDqYUMivZigP4wST&format=png, gamerScore=7713
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+Completed initial cloud game list update, running full update
+getCloudProductsJSON, fullQuery = true
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+2025-03-09 01:01:38.247 DEBUG [3393626] [rtc::impl::Init::doInit@113] Global initialization
+2025-03-09 01:01:38.247 DEBUG [3393626] [rtc::impl::Init::doInit@123] Spawning 16 threads
+2025-03-09 01:01:38.248 DEBUG [3393701] [rtc::impl::PollService::runLoop@164] Poll service started
+2025-03-09 01:01:38.249 DEBUG [3393685] [rtc::impl::Certificate::Generate@445] Generating certificate (OpenSSL)
+2025-03-09 01:01:38.250 DEBUG [3393626] [rtc::impl::IceTransport::IceTransport@58] Initializing ICE transport (libjuice)
+2025-03-09 01:01:38.250 DEBUG [3393626] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="0", removed=false
+2025-03-09 01:01:38.250 DEBUG [3393626] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="1", removed=false
+2025-03-09 01:01:38.250 DEBUG [3393626] [rtc::impl::PeerConnection::processLocalDescription@1053] Adding application to local description, mid="2"
+2025-03-09 01:01:38.250 INFO  [3393626] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to have-local-offer
+2025-03-09 01:01:38.250 INFO  [3393626] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to in-progress
+2025-03-09 01:01:38.250 INFO  [3393626] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to gathering
+onGatheringStateChange: in-progress
+2025-03-09 01:01:38.251 INFO  [3393626] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connecting
+got local candidate: candidate:1 1 UDP 2122317823 192.168.0.11 64883 typ host, mid=0
+got local candidate: candidate:2 1 UDP 2122317567 10.135.45.159 64883 typ host, mid=0
+2025-03-09 01:01:38.251 INFO  [3393626] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to checking
+2025-03-09 01:01:38.251 INFO  [3393626] [rtc::impl::PeerConnection::changeState@1316] Changed state to connecting
+2025-03-09 01:01:38.251 INFO  [3393626] [rtc::impl::IceTransport::LogCallback@390] juice: Candidate gathering done
+2025-03-09 01:01:38.251 INFO  [3393626] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to complete
+onStateChange: connecting
+onGatheringStateChange: complete
+RTC init completed
+apiBaseUrl = https://wus2.core.gssv-play-prodxhome.xboxlive.com
+playRequest: {"clientSessionId":"","fallbackRegionNames":[null],"serverId":"FD00E29BBCEC656E","settings":{"enableTextToSpeech":false,"highContrast":0,"locale":"en-US","nanoVersion":"V3;WebrtcTransport.dll","osName":"tizen","sdkType":"web","timezoneOffsetMinutes":120,"useIceConnection":false},"systemUpdateGroup":"","titleId":""}
+msDeviceInfo: {"appInfo":{"env":{"clientAppId":"www.xbox.com","clientAppType":"browser","clientAppVersion":"24.17.36","clientSdkVersion":"10.1.14","httpEnvironment":"prod","sdkInstallId":""}},"dev":{"browser":{"browserName":"chrome","browserVersion":"125.0"},"displayInfo":{"dimensions":{"heightInPixels":1080,"widthInPixels":1920},"pixelDensity":{"dpiX":1,"dpiY":1}},"hw":{"make":"Microsoft","model":"unknown","sdktype":"web"},"os":{"name":"tizen","platform":"desktop","ver":"22631.2715"}}}
+Session description: {"sessionId":"658D65DA-A9E3-4801-8CC4-31B78A3AC6C9","sessionPath":"v5/sessions/home/658D65DA-A9E3-4801-8CC4-31B78A3AC6C9","state":"Provisioning"}
+Session state: Failed
+failed to provision connection: ConsoleStreamingDisabled
+full response: {"state":"Failed","detailedSessionState":0,"errorDetails":{"code":"ConsoleStreamingDisabled","message":"Xccs : ConsoleStreamingDisabled : User has disabled streaming on Xbox: FD00E29BBCEC656E : State WaitingForServerToRegister"}}
+connect failed, cleaning up..
+2025-03-09 01:01:40.730 INFO  [3393626] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to closed
+2025-03-09 01:01:40.730 INFO  [3393626] [rtc::impl::PeerConnection::changeState@1316] Changed state to closed
+onStateChange: closed
+connectErrorNotifier2025-03-09 01:01:40.730 DEBUG [3393696] [rtc::impl::IceTransport::~IceTransport@183] Destroying ICE transport
+session HTTP delete completed
+resolved IP  = ::1
+IPv6 address, assume not private
+displayStatus: Configuring for internet play, please wait..
+2025-03-09 01:03:55.669 DEBUG [3393699] [rtc::impl::Certificate::Generate@445] Generating certificate (OpenSSL)
+2025-03-09 01:03:55.669 DEBUG [3393609] [rtc::impl::IceTransport::IceTransport@58] Initializing ICE transport (libjuice)
+2025-03-09 01:03:55.670 DEBUG [3393609] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="0", removed=false
+2025-03-09 01:03:55.670 DEBUG [3393609] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="1", removed=false
+2025-03-09 01:03:55.670 DEBUG [3393609] [rtc::impl::PeerConnection::processLocalDescription@1053] Adding application to local description, mid="2"
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to have-local-offer
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to in-progress
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to gathering
+onGatheringStateChange: in-progress
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connecting
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to checking
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::PeerConnection::changeState@1316] Changed state to connecting
+got local candidate: candidate:1 1 UDP 2122317823 192.168.0.11 63297 typ host, mid=0
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::IceTransport::LogCallback@390] juice: Candidate gathering done
+got local candidate: candidate:2 1 UDP 2122317567 10.135.45.159 63297 typ host, mid=0
+2025-03-09 01:03:55.670 INFO  [3393609] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to complete
+onStateChange: connecting
+onGatheringStateChange: complete
+RTC init completed
+playRequest: {"clientSessionId":"","fallbackRegionNames":[null],"serverId":"FD00E29BBCEC656E","settings":{"enableTextToSpeech":false,"highContrast":0,"locale":"en-US","nanoVersion":"V3;WebrtcTransport.dll","osName":"windows","sdkType":"web","timezoneOffsetMinutes":120,"useIceConnection":false},"systemUpdateGroup":"","titleId":""}
+msDeviceInfo: {"appInfo":{"env":{"clientAppId":"www.xbox.com","clientAppType":"browser","clientAppVersion":"24.17.36","clientSdkVersion":"10.1.14","httpEnvironment":"prod","sdkInstallId":""}},"dev":{"browser":{"browserName":"chrome","browserVersion":"125.0"},"displayInfo":{"dimensions":{"heightInPixels":1080,"widthInPixels":1920},"pixelDensity":{"dpiX":1,"dpiY":1}},"hw":{"make":"Microsoft","model":"unknown","sdktype":"web"},"os":{"name":"windows","platform":"desktop","ver":"22631.2715"}}}
+Session description: {"sessionId":"FDDBF3AE-DECB-4096-B2FC-2AF90565C801","sessionPath":"v5/sessions/home/FDDBF3AE-DECB-4096-B2FC-2AF90565C801","state":"Provisioning"}
+Session state: Failed
+failed to provision connection: ConsoleStreamingDisabled
+full response: {"state":"Failed","detailedSessionState":0,"errorDetails":{"code":"ConsoleStreamingDisabled","message":"Xccs : ConsoleStreamingDisabled : User has disabled streaming on Xbox: FD00E29BBCEC656E : State WaitingForServerToRegister"}}
+connect failed, cleaning up..
+2025-03-09 01:03:56.825 INFO  [3393609] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to closed
+2025-03-09 01:03:56.825 INFO  [3393609] [rtc::impl::PeerConnection::changeState@1316] Changed state to closed
+onStateChange: closed
+connectErrorNotifier2025-03-09 01:03:56.825 DEBUG [3393693] [rtc::impl::IceTransport::~IceTransport@183] Destroying ICE transport
+session HTTP delete completed
+resolved IP  = ::1
+IPv6 address, assume not private
+completion: Failure Failed to configure for internet play. The Xbox was not found on the local network (error code 4004, 2008).
+
+Both your Xbox and iOS device must be connected to the same network during the configuration process.
+attempting to refresh cloud list on becoming foreground
+getCloudProductsJSON, fullQuery = true
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+renewing device token
+UUID_id: {3718732F-18BE-EA61-BF21-A15E40BD515E}
+UUID_serialNumber: {E4FF3A24-DD37-FEB3-EE9A-4A6950637053}
+Created ISO expiry timestamp: request=2025-03-18T09:23:55Z created=2025-03-18T09:23:55.4870839Z (skew=0 sec) expires=2025-04-01T09:23:55.4870839Z
+renewing user token
+renewing sisu token
+Created ISO expiry timestamp: request=2025-03-18T09:23:56Z created=2025-03-18T09:23:56.4040484Z (skew=0 sec) expires=2025-04-01T09:23:56.4040484Z
+Created ISO expiry timestamp: request=2025-03-18T09:23:56Z created=2025-03-18T09:23:56.4296106Z (skew=0 sec) expires=2025-03-22T09:23:56.4296106Z
+Created ISO expiry timestamp: request=2025-03-18T09:23:56Z created=2025-03-18T09:23:56.5191814Z (skew=0 sec) expires=2025-03-19T01:23:56.5191814Z
+renewing web token
+Created ISO expiry timestamp: request=2025-03-18T09:23:57Z created=2025-03-18T09:23:57.157035Z (skew=0 sec) expires=2025-03-19T01:23:57.157035Z
+renewing xsts token
+Created ISO expiry timestamp: request=2025-03-18T09:23:57Z created=2025-03-18T09:23:57.7632739Z (skew=0 sec) expires=2025-03-19T01:23:57.7632739Z
+got new user account string
+getCloudProductsJSON, fullQuery = false
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+Completed initial cloud game list update, running full update
+getCloudProductsJSON, fullQuery = true
+XBL user profile: gamerTag=CostParasite42, displayPicURL=https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcS9jr0n8i7LY1tL3U7AiafY8TLh4WC8Jg5en4oR5rIL2PVZWryDqYUMivZigP4wST&format=png, gamerScore=7713
+XBL console: id=FD00E29BBCEC656E, type=XboxOneSDigital, name=XBOXONE, power=ConnectedStandby
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+getCloudProductsJSON, fullQuery = false
+XBL user profile: gamerTag=CostParasite42, displayPicURL=https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcS9jr0n8i7LY1tL3U7AiafY8TLh4WC8Jg5en4oR5rIL2PVZWryDqYUMivZigP4wST&format=png, gamerScore=7713
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+Completed initial cloud game list update, running full update
+getCloudProductsJSON, fullQuery = true
+XBL console: id=FD00E29BBCEC656E, type=XboxOneSDigital, name=XBOXONE, power=ConnectedStandby
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+attempting to refresh cloud list on becoming foreground
+getCloudProductsJSON, fullQuery = true
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+2025-03-18 02:24:33.648 DEBUG [1591091] [rtc::impl::Init::doInit@113] Global initialization
+2025-03-18 02:24:33.649 DEBUG [1591091] [rtc::impl::Init::doInit@123] Spawning 16 threads
+2025-03-18 02:24:33.649 DEBUG [1591124] [rtc::impl::PollService::runLoop@164] Poll service started
+2025-03-18 02:24:33.652 DEBUG [1591108] [rtc::impl::Certificate::Generate@445] Generating certificate (OpenSSL)
+2025-03-18 02:24:33.653 DEBUG [1591091] [rtc::impl::IceTransport::IceTransport@58] Initializing ICE transport (libjuice)
+2025-03-18 02:24:33.653 DEBUG [1591091] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="0", removed=false
+2025-03-18 02:24:33.653 DEBUG [1591091] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="1", removed=false
+2025-03-18 02:24:33.653 DEBUG [1591091] [rtc::impl::PeerConnection::processLocalDescription@1053] Adding application to local description, mid="2"
+2025-03-18 02:24:33.654 INFO  [1591091] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to have-local-offer
+2025-03-18 02:24:33.654 INFO  [1591091] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to in-progress
+2025-03-18 02:24:33.654 INFO  [1591091] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to gathering
+onGatheringStateChange: in-progress
+2025-03-18 02:24:33.655 INFO  [1591091] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connecting
+got local candidate: candidate:1 1 UDP 2122317823 192.168.1.157 58498 typ host, mid=0
+2025-03-18 02:24:33.655 INFO  [1591091] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to checking
+got local candidate: candidate:2 1 UDP 2122317567 192.168.64.1 58498 typ host, mid=0
+2025-03-18 02:24:33.655 INFO  [1591091] [rtc::impl::PeerConnection::changeState@1316] Changed state to connecting
+onStateChange: connecting
+2025-03-18 02:24:33.655 INFO  [1591091] [rtc::impl::IceTransport::LogCallback@390] juice: Candidate gathering done
+2025-03-18 02:24:33.655 INFO  [1591091] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to complete
+onGatheringStateChange: complete
+RTC init completed
+apiBaseUrl = https://wus2.core.gssv-play-prodxhome.xboxlive.com
+playRequest: {"clientSessionId":"","fallbackRegionNames":[null],"serverId":"FD00E29BBCEC656E","settings":{"enableTextToSpeech":false,"highContrast":0,"locale":"en-US","nanoVersion":"V3;WebrtcTransport.dll","osName":"tizen","sdkType":"web","timezoneOffsetMinutes":120,"useIceConnection":false},"systemUpdateGroup":"","titleId":""}
+msDeviceInfo: {"appInfo":{"env":{"clientAppId":"www.xbox.com","clientAppType":"browser","clientAppVersion":"24.17.36","clientSdkVersion":"10.1.14","httpEnvironment":"prod","sdkInstallId":""}},"dev":{"browser":{"browserName":"chrome","browserVersion":"125.0"},"displayInfo":{"dimensions":{"heightInPixels":1080,"widthInPixels":1920},"pixelDensity":{"dpiX":1,"dpiY":1}},"hw":{"make":"Microsoft","model":"unknown","sdktype":"web"},"os":{"name":"tizen","platform":"desktop","ver":"22631.2715"}}}
+Session description: {"sessionId":"C6540A0C-6D49-44C3-9493-5A5E0C46B675","sessionPath":"v5/sessions/home/C6540A0C-6D49-44C3-9493-5A5E0C46B675","state":"Provisioning"}
+Session state: Failed
+failed to provision connection: ConsoleStreamingDisabled
+full response: {"state":"Failed","detailedSessionState":0,"errorDetails":{"code":"ConsoleStreamingDisabled","message":"Xccs : ConsoleStreamingDisabled : User has disabled streaming on Xbox: FD00E29BBCEC656E : State WaitingForServerToRegister"}}
+connect failed, cleaning up..
+2025-03-18 02:24:35.280 INFO  [1591091] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to closed
+2025-03-18 02:24:35.280 INFO  [1591091] [rtc::impl::PeerConnection::changeState@1316] Changed state to closed
+onStateChange: closed
+connectErrorNotifier2025-03-18 02:24:35.280 DEBUG [1591119] [rtc::impl::IceTransport::~IceTransport@183] Destroying ICE transport
+getCloudProductsJSON, fullQuery = false
+XBL user profile: gamerTag=CostParasite42, displayPicURL=https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcS9jr0n8i7LY1tL3U7AiafY8TLh4WC8Jg5en4oR5rIL2PVZWryDqYUMivZigP4wST&format=png, gamerScore=7713
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+Completed initial cloud game list update, running full update
+getCloudProductsJSON, fullQuery = true
+HTTP POST failed: 403
+{"code":"OfferingAccessDenied","statusCode":403,"message":""}
+No access for offering
+Failed to fetch JSON: XboxErrorBundle(primaryError: __C.XboxError(rawValue: -4), secondaryError: 0, tertiaryError: 0)
+XBL console: id=FD00E29BBCEC656E, type=XboxOneSDigital, name=XBOXONE, power=ConnectedStandby
+attempting to refresh cloud list on becoming foreground
+getCloudProductsJSON, fullQuery = true
+apiBaseUrl = https://wus.core.gssv-play-prod.xboxlive.com
+looking up titles (title API)..
+Found 513 cloud products
+Requesting 400 products..
+Requesting 113 products..
+decodedGames.count = 513
+finished importing catalogs
+2025-03-18 02:31:27.743 DEBUG [1597488] [rtc::impl::Init::doInit@113] Global initialization
+2025-03-18 02:31:27.744 DEBUG [1597488] [rtc::impl::Init::doInit@123] Spawning 16 threads
+2025-03-18 02:31:27.744 DEBUG [1597783] [rtc::impl::PollService::runLoop@164] Poll service started
+2025-03-18 02:31:27.746 DEBUG [1597767] [rtc::impl::Certificate::Generate@445] Generating certificate (OpenSSL)
+2025-03-18 02:31:27.746 DEBUG [1597488] [rtc::impl::IceTransport::IceTransport@58] Initializing ICE transport (libjuice)
+2025-03-18 02:31:27.746 DEBUG [1597488] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="0", removed=false
+2025-03-18 02:31:27.746 DEBUG [1597488] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="1", removed=false
+2025-03-18 02:31:27.746 DEBUG [1597488] [rtc::impl::PeerConnection::processLocalDescription@1053] Adding application to local description, mid="2"
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to have-local-offer
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to in-progress
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to gathering
+onGatheringStateChange: in-progress
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connecting
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to checking
+got local candidate: candidate:1 1 UDP 2122317823 192.168.1.157 52334 typ host, mid=0
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::PeerConnection::changeState@1316] Changed state to connecting
+got local candidate: candidate:2 1 UDP 2122317567 192.168.64.1 52334 typ host, mid=0
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::IceTransport::LogCallback@390] juice: Candidate gathering done
+onStateChange: connecting
+2025-03-18 02:31:27.747 INFO  [1597488] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to complete
+onGatheringStateChange: complete
+RTC init completed
+playRequest: {"clientSessionId":"","fallbackRegionNames":[null],"serverId":"","settings":{"enableTextToSpeech":false,"highContrast":0,"locale":"en-US","nanoVersion":"V3;WebrtcTransport.dll","osName":"tizen","sdkType":"web","timezoneOffsetMinutes":120,"useIceConnection":false},"systemUpdateGroup":"","titleId":"EASPORTSFC24XBOXSERIESXS"}
+msDeviceInfo: {"appInfo":{"env":{"clientAppId":"www.xbox.com","clientAppType":"browser","clientAppVersion":"24.17.36","clientSdkVersion":"10.1.14","httpEnvironment":"prod","sdkInstallId":""}},"dev":{"browser":{"browserName":"chrome","browserVersion":"125.0"},"displayInfo":{"dimensions":{"heightInPixels":1080,"widthInPixels":1920},"pixelDensity":{"dpiX":1,"dpiY":1}},"hw":{"make":"Microsoft","model":"unknown","sdktype":"web"},"os":{"name":"tizen","platform":"desktop","ver":"22631.2715"}}}
+Session description: {"sessionPath":"v5/sessions/cloud/AB5FE40A-3EA5-4D4B-80F9-73F25CB3ACBA"}
+Session state: ReadyToConnect
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioned
+remoteDescription = v=0
+o=- 3132610334975443110 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS 0 1
+m=audio 9 UDP/TLS/RTP/SAVPF 97
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:HXjY
+a=ice-pwd:sn2ciq2y/57umDWllpeUf7yH
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 29:D8:20:FC:FF:9E:BB:80:A7:ED:C8:06:8F:D1:5C:9F:44:56:2A:3A:4A:26:C5:EA:12:8F:24:3B:08:B6:23:18
+a=setup:active
+a=mid:0
+a=sendonly
+a=msid:0 9852a543-a111-4f6c-be58-ca9ca33cfafd
+a=rtcp-mux
+a=rtpmap:97 opus/48000/2
+a=ssrc:3298543076 cname:bZW8P4UZv3d9Nr4f
+m=video 9 UDP/TLS/RTP/SAVPF 96
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:HXjY
+a=ice-pwd:sn2ciq2y/57umDWllpeUf7yH
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 29:D8:20:FC:FF:9E:BB:80:A7:ED:C8:06:8F:D1:5C:9F:44:56:2A:3A:4A:26:C5:EA:12:8F:24:3B:08:B6:23:18
+a=setup:active
+a=mid:1
+a=sendonly
+a=msid:1 c448cd47-1938-4435-a909-0df427515c5c
+a=rtcp-mux
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d002a
+a=ssrc:754586496 cname:bZW8P4UZv3d9Nr4f
+m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+c=IN IP4 0.0.0.0
+a=ice-ufrag:HXjY
+a=ice-pwd:sn2ciq2y/57umDWllpeUf7yH
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 29:D8:20:FC:FF:9E:BB:80:A7:ED:C8:06:8F:D1:5C:9F:44:56:2A:3A:4A:26:C5:EA:12:8F:24:3B:08:B6:23:18
+a=setup:active
+a=mid:2
+a=sctp-port:5000
+a=max-message-size:262144
+
+2025-03-18 02:31:39.625 INFO  [1597488] [rtc::impl::IceTransport::LogCallback@390] juice: Connectivity timer started
+2025-03-18 02:31:39.625 INFO  [1597488] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to stable
+iceCandidates = {"candidate":[{"candidate":"candidate:1 1 UDP 2122317823 192.168.1.157 52334 typ host","sdpMLineIndex":0,"sdpMid":"0"},{"candidate":"candidate:2 1 UDP 2122317567 192.168.64.1 52334 typ host","sdpMLineIndex":0,"sdpMid":"0"}],"messageType":"iceCandidate"}
+ICE exchangeResponse = [{"candidate":"a=candidate:1 1 UDP 100 13.104.115.214 1079 typ host ","messageType":"iceCandidate","sdpMLineIndex":0,"sdpMid":"0"},{"candidate":"a=candidate:2 1 UDP 1 2603:1030:A05:67::ADB:6539 9002 typ host ","messageType":"iceCandidate","sdpMLineIndex":0,"sdpMid":"0"},{"candidate":"a=end-of-candidates","messageType":"iceCandidate","sdpMLineIndex":0,"sdpMid":"0"}]
+adding remote candidate: a=candidate:1 1 UDP 100 13.104.115.214 1079 typ host 
+adding remote candidate: a=candidate:2 1 UDP 1 2603:1030:A05:67::ADB:6539 9002 typ host 
+2025-03-18 02:31:40.883 WARN  [1597488] [rtc::impl::IceTransport::LogCallback@390] juice: Ignoring candidate with unknown type "unknown"
+2025-03-18 02:31:40.943 INFO  [1597786] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connected
+2025-03-18 02:31:40.943 INFO  [1597786] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to connected
+2025-03-18 02:31:40.943 INFO  [1597786] [rtc::impl::PeerConnection::initDtlsTransport@277] This connection requires media support
+2025-03-18 02:31:40.943 DEBUG [1597786] [rtc::impl::DtlsTransport::DtlsTransport@733] Initializing DTLS transport (OpenSSL)
+2025-03-18 02:31:40.943 DEBUG [1597786] [rtc::impl::DtlsSrtpTransport::DtlsSrtpTransport@69] Initializing DTLS-SRTP transport
+2025-03-18 02:31:40.943 DEBUG [1597786] [rtc::impl::DtlsTransport::start@836] Starting DTLS transport
+2025-03-18 02:31:41.061 INFO  [1597786] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to completed
+2025-03-18 02:31:41.061 INFO  [1597786] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to completed
+2025-03-18 02:31:41.195 INFO  [1597767] [rtc::impl::DtlsTransport::doRecv@959] DTLS handshake finished
+2025-03-18 02:31:41.196 INFO  [1597767] [rtc::impl::DtlsSrtpTransport::postHandshake@303] Deriving SRTP keying material (OpenSSL)
+2025-03-18 02:31:41.196 DEBUG [1597767] [rtc::impl::DtlsSrtpTransport::postHandshake@309] SRTP profile is: SRTP_AEAD_AES_256_GCM
+2025-03-18 02:31:41.196 DEBUG [1597767] [rtc::impl::SctpTransport::SctpTransport@162] Initializing SCTP transport
+2025-03-18 02:31:41.196 DEBUG [1597767] [rtc::impl::SctpTransport::connect@352] SCTP connecting (local port=5000, remote port=5000)
+media track [audio] opened
+media track [video] opened
+2025-03-18 02:31:41.196 DEBUG [1597769] [rtc::RtcpReceivingSession::requestBitrate@95] Requesting bitrate: 25000000
+
+2025-03-18 02:31:41.270 DEBUG [1597771] [rtc::impl::SctpTransport::processNotification@865] SCTP negotiated streams: incoming=1024, outgoing=1024
+2025-03-18 02:31:41.270 INFO  [1597771] [rtc::impl::SctpTransport::processNotification@870] SCTP connected
+2025-03-18 02:31:41.270 INFO  [1597771] [rtc::impl::PeerConnection::changeState@1316] Changed state to connected
+2025-03-18 02:31:41.270 DEBUG [1597771] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 1 to DataChannel
+onStateChange: connected
+2025-03-18 02:31:41.270 DEBUG [1597771] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 3 to DataChannel
+2025-03-18 02:31:41.270 DEBUG [1597771] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 5 to DataChannel
+2025-03-18 02:31:41.270 DEBUG [1597771] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 7 to DataChannel
+2025-03-18 02:31:41.311 DEBUG [1597776] [rtc::impl::SctpTransport::sendReset@722] SCTP resetting stream 7
+Data channel [message] opened
+MessageDataChannel::onChannelOpened()
+Data channel [input] opened
+Data channel [control] opened
+all required channels opened, connection established
+absorbing NALU before SPS/PPS
+[message] got message: {"cv":"18zbhYExBLrNmlGpEt+ZBq.0.0","id":"0ab125e2-6eee-4687-a2f4-5cfb347f0643","type":"HandshakeAck","version":"messageV1"}
+MessageDataChannel got JSON message: {"cv":"18zbhYExBLrNmlGpEt+ZBq.0.0","id":"0ab125e2-6eee-4687-a2f4-5cfb347f0643","type":"HandshakeAck","version":"messageV1"}
+got unsupported input report type 10
+[message] got message: {"content":"{\"focused\":true,\"state\":4,\"titleaumid\":\"ElectronicArtsMobile.4781655CA831B_q5ha1ztykcgvj!FIFAGame.Main\",\"titleid\":\"6e6af27f\"}","cv":"crSSZk3RekCGKVy+6pfb9g.1.1.1.0.0.12.1.1","id":"{4fe12fff-9d5d-4d64-98b8-c1b849212c0a}","target":"/streaming/properties/titleinfo","type":"Message"}
+MessageDataChannel got JSON message: {"content":"{\"focused\":true,\"state\":4,\"titleaumid\":\"ElectronicArtsMobile.4781655CA831B_q5ha1ztykcgvj!FIFAGame.Main\",\"titleid\":\"6e6af27f\"}","cv":"crSSZk3RekCGKVy+6pfb9g.1.1.1.0.0.12.1.1","id":"{4fe12fff-9d5d-4d64-98b8-c1b849212c0a}","target":"/streaming/properties/titleinfo","type":"Message"}
+title changed, requesting keyframe
+focused = 1
+[message] got message: {"content":"","cv":"crSSZk3RekCGKVy+6pfb9g.1.1.1.0.0.12.1.2","id":"{e9c8c6f6-cce2-4777-ad3e-3c5c4e6dfd1f}","target":"/streaming/touchcontrols/showtitledefault","type":"Message"}
+MessageDataChannel got JSON message: {"content":"","cv":"crSSZk3RekCGKVy+6pfb9g.1.1.1.0.0.12.1.2","id":"{e9c8c6f6-cce2-4777-ad3e-3c5c4e6dfd1f}","target":"/streaming/touchcontrols/showtitledefault","type":"Message"}
+sending keepalive
+sending keepalive
+got disconnection request
+keepalive loop end
+media track [audio] closed
+media track [video] closed
+Data channel [message] closed
+2025-03-18 02:33:54.750 DEBUG [1597781] [rtc::impl::SctpTransport::sendReset@722] SCTP resetting stream 5
+input poll loop end
+Data channel [input] closed
+2025-03-18 02:33:54.756 DEBUG [1597777] [rtc::impl::SctpTransport::sendReset@722] SCTP resetting stream 3
+Data channel [control] closed
+2025-03-18 02:33:54.802 DEBUG [1597772] [rtc::impl::SctpTransport::sendReset@722] SCTP resetting stream 1
+2025-03-18 02:33:54.802 INFO  [1598045] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to closed
+2025-03-18 02:33:54.802 INFO  [1598045] [rtc::impl::PeerConnection::changeState@1316] Changed state to closed
+onStateChange: closed
+connectErrorNotifierLoginViewModel initialized
+2025-03-18 02:33:54.919 DEBUG [1597772] [rtc::impl::SctpTransport::trySendQueue@579] SCTP shutdown
+2025-03-18 02:33:54.919 DEBUG [1597770] [rtc::impl::SctpTransport::~SctpTransport@312] Destroying SCTP transport
+2025-03-18 02:33:54.919 DEBUG [1597770] [rtc::impl::DtlsTransport::stop@859] Stopping DTLS transport
+2025-03-18 02:33:54.919 INFO  [1597770] [rtc::impl::DtlsTransport::doRecv@991] DTLS closed
+2025-03-18 02:33:54.919 DEBUG [1597770] [rtc::impl::DtlsTransport::stop@859] Stopping DTLS transport
+2025-03-18 02:33:54.919 DEBUG [1597770] [rtc::impl::DtlsTransport::stop@859] Stopping DTLS transport
+2025-03-18 02:33:54.919 DEBUG [1597770] [rtc::impl::DtlsTransport::~DtlsTransport@830] Destroying DTLS transport
+2025-03-18 02:33:54.919 DEBUG [1597770] [rtc::impl::IceTransport::~IceTransport@183] Destroying ICE transport
+session HTTP delete completed
+disconnection processing finished
+keypressCallback: GCKeyCode(rawValue: 322420944) true
+keypressCallback: GCKeyCode(rawValue: 322420944) false
+2025-03-18 02:36:40.375 DEBUG [1597771] [rtc::impl::Certificate::Generate@445] Generating certificate (OpenSSL)
+2025-03-18 02:36:40.375 DEBUG [1604342] [rtc::impl::IceTransport::IceTransport@58] Initializing ICE transport (libjuice)
+2025-03-18 02:36:40.376 DEBUG [1604342] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="0", removed=false
+2025-03-18 02:36:40.376 DEBUG [1604342] [rtc::impl::PeerConnection::processLocalDescription@1033] Adding media to local description, mid="1", removed=false
+2025-03-18 02:36:40.376 DEBUG [1604342] [rtc::impl::PeerConnection::processLocalDescription@1053] Adding application to local description, mid="2"
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to have-local-offer
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to in-progress
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to gathering
+onGatheringStateChange: in-progress
+got local candidate: candidate:1 1 UDP 2122317823 192.168.1.157 54185 typ host, mid=0
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connecting
+got local candidate: candidate:2 1 UDP 2122317567 192.168.64.1 54185 typ host, mid=0
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to checking
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::PeerConnection::changeState@1316] Changed state to connecting
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::IceTransport::LogCallback@390] juice: Candidate gathering done
+onStateChange: connecting
+2025-03-18 02:36:40.376 INFO  [1604342] [rtc::impl::PeerConnection::changeGatheringState@1352] Changed gathering state to complete
+onGatheringStateChange: complete
+RTC init completed
+playRequest: {"clientSessionId":"","fallbackRegionNames":[null],"serverId":"","settings":{"enableTextToSpeech":false,"highContrast":0,"locale":"en-US","nanoVersion":"V3;WebrtcTransport.dll","osName":"tizen","sdkType":"web","timezoneOffsetMinutes":120,"useIceConnection":false},"systemUpdateGroup":"","titleId":"EASPORTSFC24XBOXSERIESXS"}
+msDeviceInfo: {"appInfo":{"env":{"clientAppId":"www.xbox.com","clientAppType":"browser","clientAppVersion":"24.17.36","clientSdkVersion":"10.1.14","httpEnvironment":"prod","sdkInstallId":""}},"dev":{"browser":{"browserName":"chrome","browserVersion":"125.0"},"displayInfo":{"dimensions":{"heightInPixels":1080,"widthInPixels":1920},"pixelDensity":{"dpiX":1,"dpiY":1}},"hw":{"make":"Microsoft","model":"unknown","sdktype":"web"},"os":{"name":"tizen","platform":"desktop","ver":"22631.2715"}}}
+Session description: {"sessionPath":"v5/sessions/cloud/97DDED59-8E1A-4B20-858D-D2842BEB9E44"}
+Session state: ReadyToConnect
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioning
+Session state: Provisioned
+remoteDescription = v=0
+o=- 3184919563616854728 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS 0 1
+m=audio 9 UDP/TLS/RTP/SAVPF 97
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:lqvN
+a=ice-pwd:mbUumBEtv18IRNW3+b3B0Epj
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 24:D0:6B:02:23:74:8B:E5:30:88:13:68:5F:E2:AF:B6:21:12:F8:1D:F9:DE:D9:E5:D2:2A:85:F8:4B:85:5F:DE
+a=setup:active
+a=mid:0
+a=sendonly
+a=msid:0 b878cf4d-72d7-41c4-ba35-70f7785d8024
+a=rtcp-mux
+a=rtpmap:97 opus/48000/2
+a=ssrc:2478449458 cname:z04+2sBk8BuJYOOS
+m=video 9 UDP/TLS/RTP/SAVPF 96
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:lqvN
+a=ice-pwd:mbUumBEtv18IRNW3+b3B0Epj
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 24:D0:6B:02:23:74:8B:E5:30:88:13:68:5F:E2:AF:B6:21:12:F8:1D:F9:DE:D9:E5:D2:2A:85:F8:4B:85:5F:DE
+a=setup:active
+a=mid:1
+a=sendonly
+a=msid:1 b7d579ec-c9c2-45b7-952c-0ae4130cb59f
+a=rtcp-mux
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d002a
+a=ssrc:3600857342 cname:z04+2sBk8BuJYOOS
+m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+c=IN IP4 0.0.0.0
+a=ice-ufrag:lqvN
+a=ice-pwd:mbUumBEtv18IRNW3+b3B0Epj
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 24:D0:6B:02:23:74:8B:E5:30:88:13:68:5F:E2:AF:B6:21:12:F8:1D:F9:DE:D9:E5:D2:2A:85:F8:4B:85:5F:DE
+a=setup:active
+a=mid:2
+a=sctp-port:5000
+a=max-message-size:262144
+
+2025-03-18 02:36:54.980 INFO  [1604342] [rtc::impl::IceTransport::LogCallback@390] juice: Connectivity timer started
+2025-03-18 02:36:54.980 INFO  [1604342] [rtc::impl::PeerConnection::changeSignalingState@1365] Changed signaling state to stable
+iceCandidates = {"candidate":[{"candidate":"candidate:1 1 UDP 2122317823 192.168.1.157 54185 typ host","sdpMLineIndex":0,"sdpMid":"0"},{"candidate":"candidate:2 1 UDP 2122317567 192.168.64.1 54185 typ host","sdpMLineIndex":0,"sdpMid":"0"}],"messageType":"iceCandidate"}
+ICE exchangeResponse = [{"candidate":"a=candidate:1 1 UDP 100 13.104.115.210 1066 typ host ","messageType":"iceCandidate","sdpMLineIndex":0,"sdpMid":"0"},{"candidate":"a=candidate:2 1 UDP 1 2603:1030:A05:65::ADB:632C 9002 typ host ","messageType":"iceCandidate","sdpMLineIndex":0,"sdpMid":"0"},{"candidate":"a=end-of-candidates","messageType":"iceCandidate","sdpMLineIndex":0,"sdpMid":"0"}]
+adding remote candidate: a=candidate:1 1 UDP 100 13.104.115.210 1066 typ host 
+adding remote candidate: a=candidate:2 1 UDP 1 2603:1030:A05:65::ADB:632C 9002 typ host 
+2025-03-18 02:36:56.069 WARN  [1604342] [rtc::impl::IceTransport::LogCallback@390] juice: Ignoring candidate with unknown type "unknown"
+2025-03-18 02:36:56.200 INFO  [1604382] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to connected
+2025-03-18 02:36:56.200 INFO  [1604382] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to connected
+2025-03-18 02:36:56.200 INFO  [1604382] [rtc::impl::PeerConnection::initDtlsTransport@277] This connection requires media support
+2025-03-18 02:36:56.200 DEBUG [1604382] [rtc::impl::DtlsTransport::DtlsTransport@733] Initializing DTLS transport (OpenSSL)
+2025-03-18 02:36:56.201 DEBUG [1604382] [rtc::impl::DtlsSrtpTransport::DtlsSrtpTransport@69] Initializing DTLS-SRTP transport
+2025-03-18 02:36:56.201 DEBUG [1604382] [rtc::impl::DtlsTransport::start@836] Starting DTLS transport
+2025-03-18 02:36:56.335 INFO  [1604382] [rtc::impl::IceTransport::LogCallback@390] juice: Changing state to completed
+2025-03-18 02:36:56.335 INFO  [1604382] [rtc::impl::PeerConnection::changeIceState@1334] Changed ICE state to completed
+2025-03-18 02:36:56.366 INFO  [1597775] [rtc::impl::DtlsTransport::doRecv@959] DTLS handshake finished
+2025-03-18 02:36:56.366 INFO  [1597775] [rtc::impl::DtlsSrtpTransport::postHandshake@303] Deriving SRTP keying material (OpenSSL)
+2025-03-18 02:36:56.366 DEBUG [1597775] [rtc::impl::DtlsSrtpTransport::postHandshake@309] SRTP profile is: SRTP_AEAD_AES_256_GCM
+2025-03-18 02:36:56.366 DEBUG [1597775] [rtc::impl::SctpTransport::SctpTransport@162] Initializing SCTP transport
+2025-03-18 02:36:56.366 DEBUG [1597775] [rtc::impl::SctpTransport::connect@352] SCTP connecting (local port=5000, remote port=5000)
+media track [audio] opened
+media track [video] opened
+2025-03-18 02:36:56.367 DEBUG [1597770] [rtc::RtcpReceivingSession::requestBitrate@95] Requesting bitrate: 25000000
+
+2025-03-18 02:36:56.416 DEBUG [1597781] [rtc::impl::SctpTransport::processNotification@865] SCTP negotiated streams: incoming=1024, outgoing=1024
+2025-03-18 02:36:56.416 INFO  [1597781] [rtc::impl::SctpTransport::processNotification@870] SCTP connected
+2025-03-18 02:36:56.416 INFO  [1597781] [rtc::impl::PeerConnection::changeState@1316] Changed state to connected
+2025-03-18 02:36:56.416 DEBUG [1597781] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 1 to DataChannel
+onStateChange: connected
+2025-03-18 02:36:56.416 DEBUG [1597781] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 3 to DataChannel
+2025-03-18 02:36:56.416 DEBUG [1597781] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 5 to DataChannel
+2025-03-18 02:36:56.416 DEBUG [1597781] [rtc::impl::PeerConnection::assignDataChannels@731] Assigning stream 7 to DataChannel
+2025-03-18 02:36:56.440 DEBUG [1597769] [rtc::impl::SctpTransport::sendReset@722] SCTP resetting stream 7
+getCloudProductsJSON, fullQuery = true
+XBL user profile: gamerTag=CostParasite42, displayPicURL=https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcS9jr0n8i7LY1tL3U7AiafY8TLh4WC8Jg5en4oR5rIL2PVZWryDqYUMivZigP4wST&format=png, gamerScore=7713
+apiBaseUrl = https://wus.core.gssv-play-prod.xboxlive.com
+looking up titles (title API)..
+XBL console: id=FD00E29BBCEC656E, type=XboxOneSDigital, name=XBOXONE, power=ConnectedStandby
+Found 513 cloud products
+Requesting 400 products..
+Requesting 113 products..
+decodedGames.count = 513
+finished importing catalogs
+keypressCallback: GCKeyCode(rawValue: 322420944) true
+keypressCallback: GCKeyCode(rawValue: 322420944) false
+keypressCallback: GCKeyCode(rawValue: 41) true
+keypressCallback: GCKeyCode(rawValue: 41) false
+keypressCallback: GCKeyCode(rawValue: 322420944) true
+keypressCallback: GCKeyCode(rawValue: 322420944) false
+keypressCallback: GCKeyCode(rawValue: 322420944) true
+keypressCallback: GCKeyCode(rawValue: 322420944) false
