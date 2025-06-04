@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ableton 12 Theme Creator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <div id="header" class="ui-region">Header</div>
+  <div id="arrange" class="ui-region">Arrange View</div>
+  <div id="footer" class="ui-region">Footer</div>
+</div>
+<div id="palette" class="hidden">
+  <label>Color<input type="color" id="colorPicker"></label>
+  <label>Brightness<input type="range" id="brightness" min="0" max="2" step="0.1" value="1"></label>
+  <button id="apply">Apply</button>
+</div>
+<input type="file" id="themeFile" accept="application/json" class="hidden" />
+<input type="file" id="imageFile" accept="image/*" class="hidden" />
+<div id="toolbar">
+  <button id="importBtn">Import Theme</button>
+  <button id="exportBtn">Export Theme</button>
+  <button id="imagePaletteBtn">Image Palette</button>
+  <button id="undoBtn">Undo</button>
+  <button id="resetBtn">Restore Defaults</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
