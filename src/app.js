@@ -44,11 +44,15 @@ exportBtn.addEventListener('click',()=>{
 });
 themeFile.addEventListener('change',e=>{
  const file=e.target.files[0];
- if(!file)return;
+ if(!file){
+   themeFile.value = '';
+   return;
+ }
  const reader=new FileReader();
  reader.onload=()=>{
    try{theme=JSON.parse(reader.result);applyTheme();}
    catch(err){alert('Invalid theme file');}
+   themeFile.value = '';
  };
  reader.readAsText(file);
 });
